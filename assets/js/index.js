@@ -17,7 +17,7 @@ function getUserInfo() {
             }
             // 调用renderAvatar 渲染用户头像
             renderAvatar(res.data)
-        },
+        }
         // 无论成功还是失败都会调用 complete 回调函数
         // complete: function (res) {
         //     // 在conplete中回调函数中 可以使用res.responseJSON 可以拿到服务器响应回来的数据
